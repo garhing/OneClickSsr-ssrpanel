@@ -54,7 +54,6 @@ mv restartssr /bin/restartssr
 crontab cron
 cd shadowsocksr
 ./setup_cymysql2.sh >/dev/null 2>&1
-pip install -r requestment.txt >/dev/null 2>&1
 rm usermysql.json -r
 echo "{" >>usermysql.json
 echo "    \"host\": \"$mip\"," >>usermysql.json
